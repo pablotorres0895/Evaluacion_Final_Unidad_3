@@ -1,0 +1,29 @@
+
+body{
+    background: rgb(230, 122, 32);
+}
+.jumbotron{
+    background: #ffffff;
+}
+.redes-sociales{
+    position: absolute;
+    bottom: 0;
+}
+/* estilo para el apartado principal de contenidos*/
+.principal, .articulos{
+    margin-top: 10px;
+}
+/* clase para setear dimensiones a los iconos de redes sociales*/
+.img-social {
+    width: 40px;
+    height: 40px;
+}
+.img-publicacion{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+/* estilo para la imagen situada a la izquierda del textarea*/
+.comment{
+    width: 80px;
+}
