@@ -6,8 +6,9 @@ body{
     background: #ffffff;
 }
 .redes-sociales{
-    position: absolute;
-    bottom: 0;
+    position:absolute;
+    right:0;
+    bottom:0;
 }
 /* estilo para el apartado principal de contenidos*/
 .principal, .articulos{
@@ -26,4 +27,15 @@ body{
 /* estilo para la imagen situada a la izquierda del textarea*/
 .comment{
     width: 80px;
+}
+
+@media (max-width: 480px){
+    .redes-sociales{
+        position:relative;
+        margin-top: 10px;
+    }
+    .comment{
+        width: 40px;
+    }
+    
 }
