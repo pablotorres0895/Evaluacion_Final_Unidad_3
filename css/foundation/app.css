@@ -1,4 +1,13 @@
+.heading{
+    color: #ffffff;
+}
+.fondo-principal{
+    background: rgba(50, 70, 104, 0.95);
+}
 
+.left-column {
+    border-right: 1px dashed #ffffff;
+}
 body{
     background: url(../../img/gastronomia/fondo.jpg);
     background-repeat: no-repeat;
